@@ -1,9 +1,15 @@
 * Install Docker on your computer.
 
+*For the first time, run below command to pull docker image.
+
+```bash
+docker pull jupyter/datascience-notebook
+```
+
 * On the terminal of host, run below.
 
 ```bash
-docker run -it --rm -p 8888:8888 chenaoki/strung:latest
+docker run -it --rm -p 8888:8888 jupyter/datascience-notebook:latest
 ```
 
 * Copy and paste the URL with token on browser.
