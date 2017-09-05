@@ -1,9 +1,9 @@
 * Install Docker on your computer.
 
-*For the first time, run below command to pull docker image.
+* For the first time, run below command to pull docker image.
 
 ```bash
-docker pull jupyter/datascience-notebook
+docker pull jupyter/datascience-notebook:latest
 ```
 
 * On the terminal of host, run below.
